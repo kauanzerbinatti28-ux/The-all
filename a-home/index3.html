@@ -1,0 +1,43 @@
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title style="text-align: center">tempo</title>
+  <link rel="stylesheet" href="index3.css">
+</head>
+
+<body style="background-color:#C1D4BC">
+  <h1 style="text-align:center; font-family:'Verdana'"><strong><i>tempo</i></strong></h1>
+  
+  <h3 id="tempo" style="text-align:center">
+  <i>
+    
+  </i>
+  </h3>
+  
+  <h3 id="horas" style="position: relative; bottom:20px ; left: 350px; font-size:40px; text-align: middle">
+      </h3>
+      
+      <br /><br /><br />
+      <h2 style="position: relative; bottom:20px ; left: 360px; font-size:40px; text-align: middle">cronômetro:</h2>
+      <br />
+      <button onclick="cronômetro()" style="padding:10px;border-radius:10%;color:white;background-color:#444980;margin-left:380px">começar</button>
+      <button style="padding:10px;border-radius:10%; background-color:#7D1D1D;color:white;margin-left:480px;position:relative;bottom:40px" onclick="pararcontagem()">parar</button>
+      <br />
+      <h3 id="hours" style=" position:relative; bottom:180px ; left: 450px; font-size:40px; text-align: middle">0<h3
+      <audio src="beep.mp3" id="beep"></audio>
+      <br /><br />
+      
+      <h2 style="position: relative; bottom:20px ; left: 400px; font-size:40px; text-align: middle">timer:</h2>
+      <br />
+      <button  style="padding:10px;border-radius:10%;color:white;background-color:#444980;margin-left:380px"onclick="iniciatimer()">começar</button>
+      <button style="padding:10px;border-radius:10%; background-color:#7D1D1D;color:white;margin-left:480px;position:relative;bottom:40px" onclick="paratimer()">parar</button>
+      <br />
+      <input type="text" name="timer" id="input" style=" position:relative; bottom:20px ; left: 360px;"/>
+      
+      <h3 id="hrs" style=" position:relative; bottom:200px ; left: 450px; font-size:40px; text-align: middle">0<h3
+  
+  <script src="script3.js"></script>
+</body>
+
+</html>
