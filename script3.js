@@ -1,5 +1,5 @@
 let data = new Date()
-let dia = data.toLocaleDateString('pt-bt', {dataStyle:'short'});
+let dia = data.toLocaleDateString('pt-BR', {dateStyle:'short'});
 
 document.getElementById('tempo').innerHTML = "hoje é : "+dia
 let horas = document.getElementById('horas')
